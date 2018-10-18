@@ -30,9 +30,9 @@ class Home extends StatelessWidget {
     }
     else hello = "Good Evening";
 
-    String minutes = (minute < 10) ? "0" + minuto.;
+    String minutes = (minute < 10) ? "0" + minute.toString() : minute.toString();
 
-    return hello;
+    return "It's now "+ hour.toString() + ":" + minutes + "\n" +hello;
   }
 
 }

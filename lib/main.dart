@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
 import './screens/home.dart';
+import './ui/home2.dart';
 
 void main(){
-  runApp(new HelloFlutterApp());
+  runApp(new MaterialApp(
+    title: "Simple Layouts",
+    home: new Home2(),
+  ));
 }
 
+/**First Part
 //sub class
 class HelloFlutterApp extends StatelessWidget{
   @override
@@ -25,3 +30,4 @@ class HelloFlutterApp extends StatelessWidget{
 
 //widgets are objects, and objects are instances of clases
 
+*/
